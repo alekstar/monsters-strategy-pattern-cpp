@@ -37,13 +37,13 @@ namespace Monsters
         {
         }
         
-        void move()
+        void move() const
         {
             move_behaviour_->move();
         }
         
-        virtual void display() = 0;
-        void useAbility()
+        virtual void display() const = 0;
+        void useAbility() const
         {
             ability_->use();
         }

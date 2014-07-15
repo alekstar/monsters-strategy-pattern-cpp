@@ -6,7 +6,7 @@ namespace Abilities
     class Net : public Ability
     {
     public:
-        void use()
+        void use() const
         {
             std::cout << "I'll catch everithing with net!" << std::endl;
         }

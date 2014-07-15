@@ -17,7 +17,7 @@ namespace Monsters
             setAbility(std::shared_ptr<Ability>(new Net()));
         }
         
-        void display()
+        void display() const
         {
             std::cout << "I'm spider!" << std::endl;
         }

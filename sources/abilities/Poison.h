@@ -7,7 +7,7 @@ namespace Abilities
     class Poison : public Ability
     {
     public:
-        void use()
+        void use() const
         {
             std::cout << "I can poison enemies!" << std::endl;
         }

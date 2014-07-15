@@ -6,7 +6,7 @@ namespace Abilities
     class Ability
     {
     public:
-        virtual void use() = 0;
+        virtual void use() const = 0;
         virtual ~Ability()
         {
         }

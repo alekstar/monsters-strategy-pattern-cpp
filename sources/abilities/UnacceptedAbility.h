@@ -8,7 +8,7 @@ namespace Abilities
     class UnacceptedAbility : public Ability
     {
     public:
-        void use()
+        void use() const
         {
             std::cout << "No ability was accepted for me!" << std::endl;
         }

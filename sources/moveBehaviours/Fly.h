@@ -8,7 +8,7 @@ namespace MoveBehaviours
     class Fly : public MoveBehavior
     {
     public:
-        void move()
+        void move() const
         {
             std::cout << "I'm flying!" << std::endl;
         }

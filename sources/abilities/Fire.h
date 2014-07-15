@@ -9,7 +9,7 @@ namespace Abilities
     class Fire : public Ability
     {
     public:
-        void use()
+        void use() const
         {
             std::cout << "Burn them all!" << std::endl;
         }        

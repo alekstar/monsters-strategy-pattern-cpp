@@ -7,7 +7,7 @@ namespace Abilities
     class Frost : public Ability
     {
     public:
-        void use()
+        void use() const
         {
             std::cout << "I can made everything to ice!" << std::endl;
         }

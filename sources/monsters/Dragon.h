@@ -16,7 +16,7 @@ namespace Monsters
             setAbility(std::shared_ptr<Ability>(new Fire()));
         }
         
-        void display()
+        void display() const
         {
             std::cout << "I'm dragon!" << std::endl;
         }

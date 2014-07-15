@@ -15,7 +15,7 @@ namespace Monsters
             setAbility(std::shared_ptr<Ability>(new Frost()));
         }
         
-        void display()
+        void display() const
         {
             std::cout << "I'm yeti!" << std::endl;
         }

@@ -7,7 +7,7 @@ namespace MoveBehaviours
     class Walk : public MoveBehavior
     {
     public:
-        void move()
+        void move() const
         {
             std::cout << "I'm walking!" << std::endl;
         }

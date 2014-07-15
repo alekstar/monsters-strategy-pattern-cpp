@@ -9,7 +9,7 @@ namespace MoveBehaviours
     class UnacceptedMoveBehaviour : public MoveBehavior
     {
     public:
-        void move()
+        void move() const
         {
             std::cout << "I can't move!" << std::endl;
         }

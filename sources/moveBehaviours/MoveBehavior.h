@@ -5,7 +5,7 @@ namespace MoveBehaviours
     class MoveBehavior
     {
     public:
-        virtual void move() = 0;
+        virtual void move() const = 0;
         virtual ~MoveBehavior()
         {
         }
