@@ -17,7 +17,7 @@ namespace Monsters
         
         void display()
         {
-            std::cout << "I'm a bee!" << std::endl;
+            std::cout << "I'm bee!" << std::endl;
         }
     };
 }
