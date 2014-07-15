@@ -1,8 +1,8 @@
 #ifndef SPIDER_H
 #define	SPIDER_H
 #include "Monster.h"
-#include "../abilities/Net.h"
-#include "../moveBehaviours/Walk.h"
+#include "Net.h"
+#include "Walk.h"
 #include <memory>
 
 

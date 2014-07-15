@@ -1,8 +1,8 @@
 #ifndef DRAGON_H
 #define	DRAGON_H
 #include "Monster.h"
-#include "../abilities/Fire.h"
-#include "../moveBehaviours/Fly.h"
+#include "Fire.h"
+#include "Fly.h"
 #include <memory>
 
 namespace Monsters

@@ -1,6 +1,6 @@
-#include "../monsters/Monster.h"
-#include "../monsters/Dragon.h"
-#include "../monsters/Spider.h"
+#include "Monster.h"
+#include "Dragon.h"
+#include "Spider.h"
 #include <vector>
 #include <memory>
 
