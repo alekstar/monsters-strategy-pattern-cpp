@@ -18,6 +18,7 @@ int main()
         (*i)->display();
         (*i)->move();
         (*i)->useAbility();
+        std::cout << std::endl;
     }
     return 0;
 }
